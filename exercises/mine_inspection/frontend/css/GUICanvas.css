@@ -1,0 +1,45 @@
+#mine-canvas {
+  background-color: #1a1815;
+}
+
+#mine_camera_view {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+#mine_map_view {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+#mine_readings_overlay {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 10;
+  background: rgba(20, 20, 20, 0.78);
+  color: #f5f5f5;
+  padding: 10px 14px;
+  border-radius: 6px;
+  font-family: 'Monospace', monospace;
+  font-size: 13px;
+  line-height: 1.5;
+  text-align: left;
+  min-width: 180px;
+  pointer-events: none;
+}
+
+#mine_readings_overlay .label {
+  color: #aaaaaa;
+  display: inline-block;
+  width: 90px;
+}
+
+#mine_readings_overlay .crack-on {
+  color: #ff6464;
+  font-weight: bold;
+}
